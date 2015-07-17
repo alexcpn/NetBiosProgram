@@ -1,0 +1,15 @@
+@echo off
+cls
+echo Server is Executing
+rem if "%1" == "" goto  message
+rem echo Output is on %1
+server32.exe
+ merbat
+ view
+goto end
+:message
+echo Enter the Directory Where you want
+echo your Output To be
+echo Press Any Key
+pause
+:end
